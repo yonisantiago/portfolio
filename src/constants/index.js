@@ -23,21 +23,26 @@ import {
   jobit,
   tripguide,
   threejs,
+  wordpress,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About Me",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Portfolio",
   },
   {
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "yoni-silvestre.pdf",
+    title: "Resume", 
+  }
 ];
 
 const services = [
@@ -46,16 +51,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Js Developer",
+    icon: reactjs,
   },
   {
-    title: "Backend Developer",
+    title: "WordPress Developer",
+    icon: wordpress,
+  },
+  {
+    title: "Junior Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -103,10 +108,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -172,27 +173,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Yoni proved me wrong.",
+    name: "Eli P.",
+    designation: "Founder",
+    company: "lashroombyeli.com",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Yoni does.",
+    name: "Maria S.",
+    designation: "CEO",
+    company: "expresscleanings.com",
+    image: "https://randomuser.me/api/portraits/women/8.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Rick optimized our website, our loading speed increased by 50%. We can't thank them enough!",
+    name: "Carlos S.",
+    designation: "Founder",
+    company: "Carzul",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
 
@@ -261,5 +262,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
+// sort numbers in an array 
+
 
 export { services, technologies, experiences, testimonials, projects };

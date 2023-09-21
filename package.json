@@ -12,6 +12,11 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
+    "@splinetool/loader": "^0.9.366",
+    "@splinetool/r3f-spline": "^1.0.2",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.366",
+    "animate.css": "^4.1.1",
     "framer-motion": "^9.0.7",
     "maath": "^0.5.2",
     "react": "^18.2.0",
@@ -29,5 +34,18 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "<a name=\"readme-top\"></a> <div align=\"center\">",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladunjexa/Threejs-3D-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ladunjexa/Threejs-3D-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ladunjexa/Threejs-3D-Portfolio#readme"
 }
