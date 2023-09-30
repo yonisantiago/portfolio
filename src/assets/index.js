@@ -30,6 +30,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import yonisilvestre from "./yonisilvestre.png"
+import yardsale from "./yardsale.png"
+import landingyoni from "./landingyoni.png"
+import calendary from "./calendary.png"
+import expresscleanings from "./expresscleanings.png"
+import justloan from "./justloan.png"
+import lashroom from "./lashroom.png"
+import silvestresmarketing from "./silvestresmarketing.png"
 
 export {
   logo,
@@ -61,4 +69,12 @@ export {
   jobit,
   tripguide,
   wordpress,
+  yonisilvestre,
+  yardsale,
+  landingyoni,
+  calendary,
+  expresscleanings,
+  justloan,
+  lashroom,
+  silvestresmarketing,
 };
